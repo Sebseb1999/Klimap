@@ -1,19 +1,34 @@
+/*
+FARVER
+
+Orange 
+#FE5301 
+
+Sort
+#070618;
+*/
+
 body {
     font-family: 'Gugi', cursive;
+    background-color: #070618;
 }
 
-.border{
-    border: 1px solid black;
+.orange-background {
+    background-color: #fe5301;
 }
 
-.orange-box-transparent{
+.orange-box-25{
     height: 100%;
     width: 10px;
     background-color: rgba(254,83,1, 0.25)
 }
 
-.orange-box{
+.orange-box-50{
     height: 100%;
     width: 10px;
     background-color: rgba(254,83,1, 0.50)
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
 }
