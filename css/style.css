@@ -9,26 +9,41 @@ Sort
 */
 
 body {
-    font-family: 'Gugi', cursive;
-    background-color: #070618;
+  font-family: "Gugi", cursive;
+  background-color: #070618;
 }
 
 .orange-background {
-    background-color: #fe5301;
+  background-color: #fe5301;
 }
 
-.orange-box-25{
-    height: 100%;
-    width: 10px;
-    background-color: rgba(254,83,1, 0.25)
+.orange-box-25 {
+  height: 100%;
+  width: 10px;
+  background-color: rgba(254, 83, 1, 0.25);
 }
 
-.orange-box-50{
-    height: 100%;
-    width: 10px;
-    background-color: rgba(254,83,1, 0.50)
+.orange-box-50 {
+  height: 100%;
+  width: 10px;
+  background-color: rgba(254, 83, 1, 0.5);
 }
 
 .letter-spacing {
-    letter-spacing: 5px;
+  letter-spacing: 5px;
+}
+
+.search-input {
+  border: 1px solid #fe5301;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px;
+  padding-left: 10px;
+  width: 100%;
+  background-image: url("../icons/search.png");
+  background-position-y: center;
+  background-position-x: right 5px;
+  background-repeat: no-repeat;
+  background-size: 20px;
 }
