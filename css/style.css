@@ -9,6 +9,7 @@ Sort
 */
 
 body {
+  box-sizing: border-box;
   font-family: "Gugi", cursive;
   background-color: #070618;
 }
@@ -43,7 +44,8 @@ body {
   width: 100%;
   background-image: url("../icons/search.png");
   background-position-y: center;
-  background-position-x: right 10px;
+  /* background-position-x: right 10px; */
+  background-position-x: 95%;
   background-repeat: no-repeat;
   background-size: 20px;
 }
@@ -79,4 +81,19 @@ body {
   left: 5%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+div::-webkit-scrollbar {
+  background-color: #070618;
+  width: 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: #fe5301;
+  border-radius: 10px;
+}
+
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #fe5301, 1px -1px 0 #fe5301, -1px 1px 0 #fe5301, 1px 1px 0 #fe5301;
 }
