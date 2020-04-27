@@ -15,7 +15,7 @@
 
 
 <body>
-    <div class="container p-0">
+    <div class="container p-md-0">
         <div class="row my-0 my-md-3">
             <div class="d-none d-md-flex justify-content-md-center col-md-1">
                 <div class="orange-box-25"></div>
@@ -24,7 +24,7 @@
                 <div class="orange-box-50"></div>
             </div>
             <div class="col-12 col-md-8 py-2 d-flex justify-content-center align-items-center orange-background">
-                <h3 class="text-white text-uppercase p-1 letter-spacing">
+                <h3 class="text-white text-uppercase p-1 letter-spacing text-center text-md-none">
                     Klimap Worldwide
                 </h3>
             </div>
@@ -39,21 +39,26 @@
 
 
 
-
-        <div class="row px-5 mt-5 text-white">
+        <!-- px-5 før -->
+        <div class="row mt-5 text-white">
 
             <div class="col-12 d-lg-none my-2">
                 <input type="search" class="search-input" placeholder="Søg...">
             </div>
 
-            <div class="col-6 col-md-4 d-flex justify-content-center align-items-center text-uppercase">
+            <!-- <div class="col-6 col-md-4 d-flex justify-content-center align-items-center text-uppercase"> -->
+            <div class="col-12 col-md-4 d-flex justify-content-center align-items-center text-uppercase">
                 Player Highscore
             </div>
-            <div class="col-6 col-md-4 d-flex justify-content-center align-items-center text-uppercase">
+
+            <!-- Team Highscore title bliver vist på desktop -->
+            <div class="d-none col-md-4 d-md-flex justify-content-center align-items-center text-uppercase">
                 Team Highscore
             </div>
-            <div class="d-none d-lg-block col-md-3">
-                <input type="search" class="search-input" placeholder="Søg...">
+            <div class="d-none d-lg-block col-md-4">
+                <form action="#" method="POST">
+                    <input type="search" class="search-input" placeholder="Søg...">
+                </form>
             </div>
 
         </div>
@@ -61,27 +66,147 @@
 
 
         <div class="row mt-2 text-white">
-            <div class="col-4">
-                <div class="col-12">1</div>
-                <div class="col-12">2</div>
-                <div class="col-12">3</div>
-                <div class="col-12">4</div>
-                <div class="col-12">5</div>
-                <div class="col-12">6</div>
+            <div class="col-12 col-md-4">
+
+                <div class="col-12 mt-2 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">1</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">2</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">3</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">4</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">5</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-4">
-                <div class="col-12">1</div>
-                <div class="col-12">2</div>
-                <div class="col-12">3</div>
-                <div class="col-12">4</div>
-                <div class="col-12">5</div>
-                <div class="col-12">6</div>
-            </div>
-            <div class="col-4">
-                <p>Billedet</p>
+
+            <!-- Team Highscore title bliver vist på mobile -->
+            <div class="col-12 d-md-none d-flex justify-content-center align-items-center text-uppercase">
+                Team Highscore
             </div>
 
 
+
+            <div class="col-12 col-md-4">
+                <div class="col-12 mt-2 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">1</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">2</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">3</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">4</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div>
+                        <!-- 6 kant ikon -->
+                        <img src="icons/6-kant.png" alt="" class="square-icon">
+                        <!-- Rækkefølge nummer -->
+                        <div class="number">5</div>
+                        <!-- Spiller navn -->
+                        <input type="text" class="point-input" value="Amanda1" readonly>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <!-- <div class="col-12 col-md-4" style="display: flex; flex-direction: column; justify-content:center; align-items: center"> -->
+            <!-- <div class="d-none col-md-4 d-md-flex justify-content-center align-items-center p-0"> -->
+            <div class="d-none col-md-4 d-md-flex flex-md-column justify-content-center align-items-center p-0">
+                
+                <!-- Før 150px -->
+                <img src="iPhone.png" alt="" style="height: auto; width: 115px">
+                <!-- Før 80px -->
+                <img src="App store download.png" alt="" style="height: 65px; width: auto">
+                
+                
+                
+                
+            </div>
+            
+            <!-- <div class="col-12 my-2 col-md-4 my-md-0 d-flex justify-content-center align-items-center"> -->
+            <div class="col-12 my-2 d-flex justify-content-center align-items-center d-md-none">
+                <!-- <img src="App store download.png" alt="" height="80" width="auto"> -->
+                <img src="App store download.png" alt="" class="d-block d-md-none" style="height: 80px; width: auto">
+
+            </div>
 
             <!-- <div class="col-4">4</div>
             <div class="col-4">5</div>
@@ -90,6 +215,11 @@
 
     
 
+
+        <div class="row" style="background-color: #fff;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+        </div>
 
 
 
