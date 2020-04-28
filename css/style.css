@@ -12,6 +12,12 @@ body {
   box-sizing: border-box;
   font-family: "Gugi", cursive;
   background-color: #070618;
+  color: #fff;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
 }
 
 .orange-background {
@@ -48,11 +54,8 @@ body {
   background-position-x: 95%;
   background-repeat: no-repeat;
   background-size: 20px;
+  outline: none;
 }
-
-/* .gradient {
-    background-image: linear-gradient(to right, black , transparent);
-} */
 
 .point-input {
   position: relative;
@@ -95,5 +98,18 @@ div::-webkit-scrollbar-thumb {
 
 .strokeme {
   color: white;
-  text-shadow: -1px -1px 0 #fe5301, 1px -1px 0 #fe5301, -1px 1px 0 #fe5301, 1px 1px 0 #fe5301;
+  text-shadow: -1px -1px 0 #fe5301, 1px -1px 0 #fe5301, -1px 1px 0 #fe5301,
+    1px 1px 0 #fe5301;
+}
+
+.footer {
+  height: 20vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 2px solid #fe5301;
 }
