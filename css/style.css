@@ -10,7 +10,7 @@ Sort
 
 body {
   box-sizing: border-box;
-  font-family: "Gugi", cursive, sans-serif;
+  font-family: "Gugi", sans-serif;
   background-color: #070618;
   color: #fff;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .point-input {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   background-color: transparent;
   color: #fff;
@@ -73,9 +73,13 @@ body {
   /* padding-left: 20px; */
 }
 
+.relative {
+  position: relative;
+}
+
 .square-icon {
   position: absolute;
-  left: 5%;
+  left: 2.5%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
@@ -86,7 +90,7 @@ body {
 .number {
   position: absolute;
   z-index: 100;
-  left: 5%;
+  left: 2.5%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -136,4 +140,35 @@ div::-webkit-scrollbar-thumb {
 
 .footer-company {
   color: #FE5301;
+}
+
+
+
+
+
+
+
+
+/* Search.html */
+
+
+
+.result-input {
+  border: 1px solid #fe5301;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px;
+  padding-left: 10px;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  cursor: default;
+}
+
+.season-text {
+  position: absolute;
+  /* left: 10%; */
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
